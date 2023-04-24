@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "C:\/MAMP\/htdocs\/WP-Projektarbete-MEGA\/wp-content\/uploads\/wpo_wcpdf_161547af6782a2c0f2c2f88c2b02e1f6\/fonts\/OpenSans-Normal",
+        "bold": "C:\/MAMP\/htdocs\/WP-Projektarbete-MEGA\/wp-content\/uploads\/wpo_wcpdf_161547af6782a2c0f2c2f88c2b02e1f6\/fonts\/OpenSans-Bold",
+        "italic": "C:\/MAMP\/htdocs\/WP-Projektarbete-MEGA\/wp-content\/uploads\/wpo_wcpdf_161547af6782a2c0f2c2f88c2b02e1f6\/fonts\/OpenSans-Italic",
+        "bold_italic": "C:\/MAMP\/htdocs\/WP-Projektarbete-MEGA\/wp-content\/uploads\/wpo_wcpdf_161547af6782a2c0f2c2f88c2b02e1f6\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "C:\/MAMP\/htdocs\/WP-Projektarbete-MEGA\/wp-content\/uploads\/wpo_wcpdf_161547af6782a2c0f2c2f88c2b02e1f6\/fonts\/Segoe-Normal",
+        "bold": "C:\/MAMP\/htdocs\/WP-Projektarbete-MEGA\/wp-content\/uploads\/wpo_wcpdf_161547af6782a2c0f2c2f88c2b02e1f6\/fonts\/Segoe-Bold",
+        "italic": "C:\/MAMP\/htdocs\/WP-Projektarbete-MEGA\/wp-content\/uploads\/wpo_wcpdf_161547af6782a2c0f2c2f88c2b02e1f6\/fonts\/Segoe-Italic",
+        "bold_italic": "C:\/MAMP\/htdocs\/WP-Projektarbete-MEGA\/wp-content\/uploads\/wpo_wcpdf_161547af6782a2c0f2c2f88c2b02e1f6\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "C:\/MAMP\/htdocs\/WP-Projektarbete-MEGA\/wp-content\/uploads\/wpo_wcpdf_161547af6782a2c0f2c2f88c2b02e1f6\/fonts\/RobotoSlab-Normal",
+        "bold": "C:\/MAMP\/htdocs\/WP-Projektarbete-MEGA\/wp-content\/uploads\/wpo_wcpdf_161547af6782a2c0f2c2f88c2b02e1f6\/fonts\/RobotoSlab-Bold",
+        "italic": "C:\/MAMP\/htdocs\/WP-Projektarbete-MEGA\/wp-content\/uploads\/wpo_wcpdf_161547af6782a2c0f2c2f88c2b02e1f6\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "C:\/MAMP\/htdocs\/WP-Projektarbete-MEGA\/wp-content\/uploads\/wpo_wcpdf_161547af6782a2c0f2c2f88c2b02e1f6\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "C:\/MAMP\/htdocs\/WP-Projektarbete-MEGA\/wp-content\/uploads\/wpo_wcpdf_161547af6782a2c0f2c2f88c2b02e1f6\/fonts\/currencies",
+        "bold": "C:\/MAMP\/htdocs\/WP-Projektarbete-MEGA\/wp-content\/uploads\/wpo_wcpdf_161547af6782a2c0f2c2f88c2b02e1f6\/fonts\/currencies",
+        "italic": "C:\/MAMP\/htdocs\/WP-Projektarbete-MEGA\/wp-content\/uploads\/wpo_wcpdf_161547af6782a2c0f2c2f88c2b02e1f6\/fonts\/currencies",
+        "bold_italic": "C:\/MAMP\/htdocs\/WP-Projektarbete-MEGA\/wp-content\/uploads\/wpo_wcpdf_161547af6782a2c0f2c2f88c2b02e1f6\/fonts\/currencies"
+    }
+}
