@@ -11,6 +11,5 @@
  *
  * @package Blocksy
  */
-
 get_template_part( 'single' );
 
