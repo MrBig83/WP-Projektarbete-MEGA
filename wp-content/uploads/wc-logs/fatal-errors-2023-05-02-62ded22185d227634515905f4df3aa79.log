@@ -1,0 +1,93 @@
+2023-05-02T10:21:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php on line 15 and at least 2 expected in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php:612
+Stack trace:
+#0 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php(15): remove_action('woocommerce_bef...')
+#1 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-settings.php(591): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-config.php(93): require_once('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-load.php(50): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-admin\admin-ajax.php(22): require_once('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php on line 612
+
+2023-05-02T10:21:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php on line 15 and at least 2 expected in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php:612
+Stack trace:
+#0 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php(15): remove_action('woocommerce_bef...')
+#1 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-settings.php(591): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-config.php(93): require_once('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-load.php(50): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-blog-header.php(13): require_once('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\WP-Projektarbete-MEGA\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#6 {main}
+  thrown in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php on line 612
+
+2023-05-02T10:21:18+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php on line 15 and at least 2 expected in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php:612
+Stack trace:
+#0 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php(15): remove_action('woocommerce_bef...')
+#1 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-settings.php(591): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-config.php(93): require_once('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-load.php(50): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-blog-header.php(13): require_once('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\WP-Projektarbete-MEGA\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#6 {main}
+  thrown in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php on line 612
+
+2023-05-02T10:22:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php on line 15 and at least 2 expected in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php:612
+Stack trace:
+#0 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php(15): remove_action('woocommerce_bef...')
+#1 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-settings.php(591): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-config.php(93): require_once('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-load.php(50): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-blog-header.php(13): require_once('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\WP-Projektarbete-MEGA\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#6 {main}
+  thrown in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php on line 612
+
+2023-05-02T10:52:38+00:00 CRITICAL Cannot redeclare blocksy_print() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\inc\classes\print.php:3) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\inc\classes\print.php on line 3
+
+2023-05-02T10:53:46+00:00 CRITICAL Cannot redeclare blocksy_print() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\inc\classes\print.php:3) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\inc\classes\print.php on line 3
+
+2023-05-02T10:55:26+00:00 CRITICAL Cannot redeclare blocksy_print() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\inc\classes\print.php:3) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\inc\classes\print.php on line 3
+
+2023-05-02T10:55:42+00:00 CRITICAL Cannot redeclare blocksy_print() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\inc\classes\print.php:3) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\inc\classes\print.php on line 3
+
+2023-05-02T10:55:47+00:00 CRITICAL Cannot redeclare blocksy_print() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\inc\classes\print.php:3) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\inc\classes\print.php on line 3
+
+2023-05-02T10:57:29+00:00 CRITICAL Cannot redeclare blocksy_print() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\inc\classes\print.php:3) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\inc\classes\print.php on line 3
+
+2023-05-02T10:57:34+00:00 CRITICAL Cannot redeclare blocksy_print() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\inc\classes\print.php:3) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\inc\classes\print.php on line 3
+
+2023-05-02T11:22:31+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(5062): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(4974): get_the_generator('xhtml')
+#3 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(4951): the_generator('xhtml')
+#4 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(308): wp_generator('')
+#5 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\functions.php(40): wp_head()
+#9 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-settings.php(591): include('C:\\MAMP\\htdocs\\...')
+#10 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-config.php(93): require_once('C:\\MAMP\\htdocs\\...')
+#11 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-load.php(50): require_once('C:\\MAMP\\htdocs\\...')
+#12 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-admin\admin-ajax.php(22): require_once('C:\\MAMP\\htdocs\\...')
+#13 {main}
+  thrown in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php on line 308
+
+2023-05-02T11:24:32+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(5062): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(4974): get_the_generator('xhtml')
+#3 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(4951): the_generator('xhtml')
+#4 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(308): wp_generator('')
+#5 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\functions.php(40): wp_head()
+#9 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-settings.php(591): include('C:\\MAMP\\htdocs\\...')
+#10 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-config.php(93): require_once('C:\\MAMP\\htdocs\\...')
+#11 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-load.php(50): require_once('C:\\MAMP\\htdocs\\...')
+#12 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-admin\admin-ajax.php(22): require_once('C:\\MAMP\\htdocs\\...')
+#13 {main}
+  thrown in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php on line 308
+

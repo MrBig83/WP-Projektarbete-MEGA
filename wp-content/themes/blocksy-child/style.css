@@ -3,14 +3,5 @@ Theme Name: Blocksy-child
 Author: Amanda, Viola, Martin
 Version: 1.0
 Description: Våran modifiering av temat Blocksy
-Template: blocksy
+Template: Blocksy
 */ 
-h2 {
-    color: red;
-}
-.test {
-    color: rgb(14, 17, 221);
-}
-.article {
-    display: block;
-}
