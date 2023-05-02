@@ -1,0 +1,107 @@
+2023-04-27T14:47:51+00:00 CRITICAL Cannot redeclare my_plugin_styles() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\plugins\weeklygreet\weeklygreet.php:11) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\archive-butik.php on line 9
+
+2023-04-27T14:52:53+00:00 CRITICAL Uncaught Error: Call to undefined function theme_url() in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\archive-butik.php:10
+Stack trace:
+#0 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(308): my_plugin_styles('')
+#1 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\header.php(21): wp_head()
+#9 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\template.php(783): require_once('C:\\MAMP\\htdocs\\...')
+#10 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\template.php(718): load_template('C:\\MAMP\\htdocs\\...', true, Array)
+#11 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\archive-butik.php(16): get_header()
+#13 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#14 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#15 C:\MAMP\htdocs\WP-Projektarbete-MEGA\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#16 {main}
+  thrown in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\archive-butik.php on line 10
+
+2023-04-27T14:53:16+00:00 CRITICAL Uncaught Error: Call to undefined function template_url() in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\archive-butik.php:10
+Stack trace:
+#0 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(308): my_plugin_styles('')
+#1 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\header.php(21): wp_head()
+#9 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\template.php(783): require_once('C:\\MAMP\\htdocs\\...')
+#10 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\template.php(718): load_template('C:\\MAMP\\htdocs\\...', true, Array)
+#11 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\archive-butik.php(16): get_header()
+#13 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#14 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#15 C:\MAMP\htdocs\WP-Projektarbete-MEGA\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#16 {main}
+  thrown in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\archive-butik.php on line 10
+
+2023-04-27T14:53:30+00:00 CRITICAL Uncaught Error: Call to undefined function plugin_url() in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\archive-butik.php:10
+Stack trace:
+#0 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(308): my_plugin_styles('')
+#1 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\header.php(21): wp_head()
+#9 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\template.php(783): require_once('C:\\MAMP\\htdocs\\...')
+#10 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\template.php(718): load_template('C:\\MAMP\\htdocs\\...', true, Array)
+#11 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\archive-butik.php(16): get_header()
+#13 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#14 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#15 C:\MAMP\htdocs\WP-Projektarbete-MEGA\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#16 {main}
+  thrown in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\archive-butik.php on line 10
+
+2023-04-27T14:54:40+00:00 CRITICAL Uncaught Error: Call to undefined function themes_url() in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\archive-butik.php:10
+Stack trace:
+#0 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(308): my_plugin_styles('')
+#1 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\header.php(21): wp_head()
+#9 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\template.php(783): require_once('C:\\MAMP\\htdocs\\...')
+#10 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\template.php(718): load_template('C:\\MAMP\\htdocs\\...', true, Array)
+#11 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\archive-butik.php(16): get_header()
+#13 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#14 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#15 C:\MAMP\htdocs\WP-Projektarbete-MEGA\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#16 {main}
+  thrown in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\archive-butik.php on line 10
+
+2023-04-27T14:54:56+00:00 CRITICAL Uncaught Error: Call to undefined function templates_url() in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\archive-butik.php:10
+Stack trace:
+#0 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(308): my_plugin_styles('')
+#1 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\header.php(21): wp_head()
+#9 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\template.php(783): require_once('C:\\MAMP\\htdocs\\...')
+#10 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\template.php(718): load_template('C:\\MAMP\\htdocs\\...', true, Array)
+#11 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\archive-butik.php(16): get_header()
+#13 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#14 C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#15 C:\MAMP\htdocs\WP-Projektarbete-MEGA\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#16 {main}
+  thrown in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\archive-butik.php on line 10
+
