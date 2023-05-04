@@ -1,0 +1,6 @@
+2023-05-04T10:15:14+00:00 CRITICAL Declaration of WC_Your_Shipping_Method::calculate_shipping($package) must be compatible with WC_Shipping_Method::calculate_shipping($package = []) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\plugins\mega-drone\mega-drone.php on line 53
+
+2023-05-04T10:19:53+00:00 CRITICAL Declaration of WC_Your_Shipping_Method::calculate_shipping($package) must be compatible with WC_Shipping_Method::calculate_shipping($package = []) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\plugins\mega-drone\mega-drone.php on line 53
+
+2023-05-04T10:22:46+00:00 CRITICAL Declaration of WC_Your_Shipping_Method::calculate_shipping($package) must be compatible with WC_Shipping_Method::calculate_shipping($package = []) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\plugins\mega-drone\mega-drone.php on line 53
+

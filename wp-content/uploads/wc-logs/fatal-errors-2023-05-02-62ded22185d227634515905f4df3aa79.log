@@ -91,3 +91,5 @@ Stack trace:
 #13 {main}
   thrown in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-includes\class-wp-hook.php on line 308
 
+2023-05-02T17:22:48+00:00 CRITICAL Cannot redeclare ws_register_images_field() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\functions.php:41) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\functions.php on line 53
+

@@ -1,0 +1,20 @@
+2023-05-03T11:51:52+00:00 CRITICAL Cannot redeclare ws_register_images_field() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\functions.php:47) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php on line 39
+
+2023-05-03T11:51:52+00:00 CRITICAL Cannot redeclare ws_register_images_field() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\functions.php:47) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php on line 39
+
+2023-05-03T11:51:58+00:00 CRITICAL Cannot redeclare ws_register_images_field() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\functions.php:47) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php on line 39
+
+2023-05-03T11:51:58+00:00 CRITICAL Cannot redeclare ws_register_images_field() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\functions.php:47) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php on line 39
+
+2023-05-03T11:53:00+00:00 CRITICAL Cannot redeclare ws_register_images_field() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\functions.php:47) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php on line 39
+
+2023-05-03T11:53:00+00:00 CRITICAL Cannot redeclare ws_register_images_field() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\functions.php:47) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php on line 39
+
+2023-05-03T11:54:15+00:00 CRITICAL Cannot redeclare ws_register_images_field() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\functions.php:47) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php on line 39
+
+2023-05-03T11:55:01+00:00 CRITICAL Cannot redeclare ws_register_images_field() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\functions.php:47) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php on line 39
+
+2023-05-03T11:55:01+00:00 CRITICAL Cannot redeclare ws_register_images_field() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\functions.php:47) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php on line 39
+
+2023-05-03T11:55:26+00:00 CRITICAL Cannot redeclare ws_register_images_field() (previously declared in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy-child\functions.php:47) in C:\MAMP\htdocs\WP-Projektarbete-MEGA\wp-content\themes\blocksy\functions.php on line 39
+

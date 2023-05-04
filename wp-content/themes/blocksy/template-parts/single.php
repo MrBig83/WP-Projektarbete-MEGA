@@ -57,12 +57,11 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
 
 
 ?>
-
 	<div
 		class="<?php echo trim($container_class) ?>"
 		<?php echo wp_kses_post(blocksy_sidebar_position_attr()); ?>
 		<?php echo $data_container_output; ?>
-		<?php echo blocksy_get_v_spacing() ?>>
+		<?php echo blocksy_get_v_spacing(); ?>>
 
 		<?php do_action('blocksy:single:container:top'); ?>
 
@@ -72,7 +71,7 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
 			 * Function blocksy_single_content() used here escapes the value properly.
 			 */
 			echo blocksy_single_content();
-		?>
+			?>
 
 		<?php get_sidebar(); ?>
 

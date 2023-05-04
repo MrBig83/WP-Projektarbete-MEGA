@@ -1,16 +1,70 @@
 <?php
 /*
-Plugin Name: Your Shipping plugin
+Plugin Name: MEGA Drone Delivery
 Plugin URI: https://woocommerce.com/
-Description: Your shipping method plugin
+Description: This plugin will add Drone Delivery to your WooCommerce-site
 Version: 1.0.0
-Author: WooThemes
-Author URI: https://woocommerce.com/
+Author: Amanda, Viola, Martin
+Author URI: <www class="google se"></www>
 */
 
-/**
- * Check if WooCommerce is active
- */
+// /**
+//  * Check if WooCommerce is active
+//  */
+
+//  add_action( 'woocommerce_shipping_init', 'techiepress_dhl_shipping_init' );
+
+//  function techiepress_dhl_shipping_init() {
+//   if ( ! class_exists( 'WC_TECHIEPRESS_DHL_SHIPPING') ) {
+//   class WC_TECHIEPRESS_DHL_SHIPPING extends WC_Shipping_Method {
+ 
+//   public function __construct() {
+// 	$this->id = 'techipress_dhl_shipping'; // Id for your shipping method. Should be uunique.
+// 	$this->method_title = __( 'Techiepress DHL Shipping' ); // Title shown in admin
+// 	$this->method_description = __( 'Description of your Techiepress DHL Shipping' ); // Description shown in admin
+// 	$this->enabled = "yes"; // This can be added as an setting but for this example its forced enabled
+// 	$this->title = "Techiepress DHL Shipping"; // This can be added as an setting but for this example its forced.
+// 	$this->init();
+//   }
+  
+// public function init() {
+// 	// Load the settings API
+// 	$this->init_form_fields(); // This is part of the settings API. Override the method to add your own settings
+// 	$this->init_settings(); // This is part of the settings API. Loads settings you previously init.
+//  			// Save settings in admin if you have any defined 
+// 	add_action( 'woocommerce_update_options_shipping_' . $this->id, array( $this, 'process_admin_options' ) );
+// }
+
+//   public function calculate_shipping( $package = [] ) {
+ 
+//   $rate = array(
+//   'label' => $this->title,
+//   'cost' => '99.99',
+//   'calc_tax' => 'per_item'
+//   );
+// 	// Register the rate
+//   $this->add_rate( $rate );
+ 
+//   }
+ 
+//   }
+//   }
+//  }
+ 
+//  add_filter( 'woocommerce_shipping_methods', 'add_techiepress_dhl_method');
+ 
+//  function add_techiepress_dhl_method( $methods ) {
+//   $methods['techipress_dhl_shipping'] = 'WC_TECHIEPRESS_DHL_SHIPPING';
+//   return $methods;
+//  }
+
+
+
+
+
+
+
+
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
 
 	function your_shipping_method_init() {
@@ -41,7 +95,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 				 * @access public
 				 * @return void
 				 */
-				function init() {
+				public function init() {
 					// Load the settings API
 					$this->init_form_fields(); // This is part of the settings API. Override the method to add your own settings
 					$this->init_settings(); // This is part of the settings API. Loads settings you previously init.
@@ -60,7 +114,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 				public function calculate_shipping( $package = array() ) {
 					$rate = array(
 						'label' => $this->title,
-						'cost' => '10.99',
+						'cost' => '99.00',
 						'calc_tax' => 'per_item'
 					);
 
@@ -70,7 +124,39 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
                 /**
                  * Initialise Gateway Settings Form Fields
                  */
-                function init_form_fields() {
+
+				//  public function init_form_fields()  {
+				// 	$this->form_fields = array(
+				// 		'enabled' => array(
+				// 			'title' => 'Enable',
+				// 			'drone-delivery',
+				// 			'type' => 'checkbox',
+				// 			'label' => 'Enable this shipping method',
+				// 			'default' => 'yes'
+				// 		),
+				// 		'price' => array(
+				// 			'title' => __('Shipping Price', 'drone-delivery'),
+				// 			'type' => 'hejheh',
+				// 			'description' => __('Set the shipping price for drone delivery.', 'drone-delivery'),
+				// 			'default' => '',
+				// 			'desc_tip' => true,
+				// 		),
+				// 		'weight' => array(
+				// 			'title' => __('vikt (kg)', 'cloudways'),
+				// 			'type' => 'number',
+				// 			'default' => 50
+				// 		),
+				// 		'distance_cost' => array(
+				// 			'title' => __('Distance Cost', 'drone-delivery'),
+				// 			'type' => 'text',
+				// 			'description' => __('Additional cost per distance unit.', 'drone-delivery'),
+				// 			'default' => '1.00',
+				// 			'desc_tip' => true,
+				// 		),
+				//  	);
+				// }
+
+                public function init_form_fields() {
                     $this->form_fields = array(
                     'title' => array(
                         'title' => __( 'Title', 'woocommerce' ),
